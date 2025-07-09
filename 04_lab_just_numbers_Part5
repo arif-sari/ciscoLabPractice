@@ -1,3 +1,4 @@
+// Use hexadecimal (base 16) numbers.
 #include <stdio.h>
 
 int main()
