@@ -1,0 +1,70 @@
+/*An asterisk (*) is a multiplication operator. If you take a look at the code, you’ll see that the variable k will be set to the value of 120, 
+while the z variable will be set to 0.625.
+*/
+
+
+int i,j,k;
+float x,y,z;
+
+//Multiplication
+i = 10; 
+j = 12;
+k = i * j;
+x = 1.25; 
+y = 0.5;
+z = x * y;
+
+//Division
+i = 10; j = 5;
+k = i / j;
+x = 1.0; y = 2.0;
+z = x / y;
+
+//addition
+
+i = 100; j = 2;
+k = i + j;
+x = 1.0; y = 0.02;
+z = x + y;
+
+//substraction
+i = 100; j = 200;
+k = i - j;
+x = 1.0; y = 1.0;
+z = x - y;
+
+//remainder
+int i,j,k;
+
+i = 13;
+j = 5;
+
+k = i % j;
+
+//paranthesis
+int i,j,k,l;
+i = 100;
+j = 25;
+k = 13;
+l = (5 * ((j % k) + i) / (2 * k)) / 2;
+
+//Postfix and prefix operators
+
+SheepCounter = SheepCounter + 1;
+DaysUntilHoliday = DaysUntilHoliday - 1;
+DaysUntilHoliday--;
+++SheepCounter;
+--DaysUntilHoliday;
+------------------------
+++Variable
+--Variable
+
+Effect: Increment/decrement the variable by one and return its value already increased/reduced.
+
+Variable++
+Variable--
+
+Effect: Return the original (unchanged) variable's value and then increment/decrement the variable by one.
+
+-----------------
+
